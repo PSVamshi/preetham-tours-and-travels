@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive travel agency website</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./projectaat.css">
+    <script type="text/javascript">
+      function alertmsg(){
+        if(document.Application.tname.value==" "){
+            window.alert("you are not registered");
+        }
+        else{
+            window.alert("Thank You for contact us.Visit again!");
+        }
+    }
+
+</script>
+</head>
+<body>
+    <!-- header section starts -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+
+
+
+
+        <a href="#" class="logo"><span>PREETHAM</span> tours & travel</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <!-- <a href="#book">book</a> -->
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fasfa-earch" id="search-btn"></i>
+             <i class="" id="login-btn"></i> 
+            
+
+        </div>
+
+        <!-- <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form> -->
+
+
+
+    </header>
+
+
+ <!-- header section ends -->
+
+<!-- login form container -->
+
+   <!-- <div class="login-form-container"> -->
+
+    <i class="fas fa-time" id="form-close"></i>
+
+    <!-- <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now"       class="btn" >
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">register now</a></p>
+    </form> -->
+</div>   
+
+<!-- home section  starts -->
+
+ <section class="home" id="home"> 
+     <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>discover new places with us, adventure awaits</p>
+        <!-- <a href="#" class="btn">discover more</a> -->
+     </div>
+
+     <div class="controls">
+        <span class="vid-btn active" data-src="./img-vedio1.mp4"></span>
+        <span class="vid-btn" data-src="./img-vdo3.mp4"></span>
+        <span class="vid-btn" data-src="./img-vdo4.mp4"></span>
+        <span class="vid-btn" data-src="./img-vdo5.mp4"></span>
+        <span class="vid-btn" data-src="./img-v2.mp4"></span>
+
+
+
+     </div>
+     <div class="video-container">
+        <video src="./img-vedio1.mp4" id="video-slider" loop autoplay muted></video>
+        
+        
+        
+     </div>
+</section> 
+
+<!-- home section end -->
+
+
+ <!-- <div class="row">
+<div class="image">
+    <img src="./img1.jpg" height="1400px">
+</div>  -->
+<!-- packages section starts -->
+
+ <section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+
+    </h1>
+    <div class="box-container">
+    <div class="box">
+        <img src="./shimla (2).jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Shimla</h3>
+            <p>A picturesque hill station in Himachal Pradesh, boasts colonial architecture, scenic vistas, and a vibrant cultural</p>
+            
+            <p>Duration:04 Nights / 05 Days</p>
+            <div class="price">Per Person price starts <span>15999/-</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="./jaipur (2).jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Jaipur</h3>
+            <p>A picturesque hill station in Himachal Pradesh, boasts colonial architecture, scenic vistas, and a vibrant cultural</p>
+            
+            <p>Duration:03 Nights / 04 Days</p>
+            <div class="price">Per Person price starts <span>13,500/-</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="./delhi.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Delhi</h3>
+            <p>A vibrant mix of ancient wonders and contemporary charm awaits.India gate making it a must-visit destination for every traveler.</p>
+            <p>Duration:02 Nights / 03 Days</p>
+            <div class="price">Per Person price starts <span>10,670/-</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <img src="./amritsar.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Amritsar</h3>
+            <p>Home to the iconic Golden Temple, Amritsar is a spiritual and cultural hub and witness the poignant ceremony at the Wagah Border, making it a memorable destination for all.</p>
+            <p>Duration:03 Nights / 04 Days</p>
+            <div class="price">Per Person price starts <span>15,000/-</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <img src="./manali (3).jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Manali</h3>
+            <p>Nestled in the heart of the Himalayas, this picturesque hill station beckons with snow-capped peaks, valleys, and adventurous escapades, making it an idyllic retreat for nature lovers and thrill-seekers alike.</p>
+            <p>Duration:04 Nights / 05 Days</p>
+            <div class="price">Per Person price starts <span>15,900/-</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <img src="./jodpur.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>jodhpur</h3>
+            <p>A picturesque hill station in Himachal Pradesh, boasts colonial architecture, scenic vistas, and a vibrant cultural</p>
+            
+            <p>Duration:03 Nights / 04 Days</p>
+            <div class="price">Per Person price starts <span>14,999/-</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+
+            </div>
+        </div>
+    </div>
+            
+            
+            <!-- <br>
+            <div class="box">
+                <img src="./delhi.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>delhi</h3>
+                    <p>A vibrant mix of ancient wonders and contemporary charm awaits, from majestic forts to bustling markets,india gate making it a must-visit destination for every traveler.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+        
+                    </div>
+                    <p>Duration:02 Nights / 03 Days</p>
+                    <div class="price">price starts <span>12999/-</span></div>
+                    <div class="box">
+                        <img src="./manali (2).jpg" alt="">
+                        <div class="content">
+                            <h3><i class="fas fa-map-marker-alt"></i>manali</h3>
+                            <p>Nestled in the heart of the Himalayas, this picturesque hill station beckons with snow-capped peaks, lush valleys, and adventurous escapades, making it an idyllic retreat for nature lovers and thrill-seekers alike.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                
+                            </div>
+                            <p>Duration:04 Nights / 03 Days</p>
+                            <div class="price">price starts <span>14999/-</span></div>
+                            <div class="box">
+                                <img src="./amritsar.jpg" alt="">
+                                <div class="content">
+                                    <h3><i class="fas fa-map-marker-alt"></i>amritsar</h3>
+                                    <p>Home to the iconic Golden Temple, Amritsar is a spiritual and cultural hub, where visitors can immerse themselves in Sikh traditions, savor delectable Punjabi cuisine, and witness the poignant ceremony at the Wagah Border, making it a memorable destination for all.</p>
+                                    <!-- <div class="stars"> -->
+                                        <!-- <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i> -->
+                        
+                                    <!-- </div>
+                                    <p>Duration:02 Nights / 03 Days</p>
+                                    <div class="price">per person price starts <span>24999/-</span></div>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i> -->
+                        
+                                    <!-- </div><br>
+                                    <div class="box">
+                                        <img src="./jaipur (2).jpg" alt="">
+                                        <div class="content">
+                                            <h3><i class="fas fa-map-marker-alt"></i>jaipur</h3>
+                                            <p> Known as the "Pink City" for its distinctive rosy hue, Jaipur captivates with its magnificent palaces, bustling bazaars, and rich cultural heritage, offering a royal experience that transports travelers back in time to the era of maharajas and majestic forts.</p> -->
+                                            <!-- <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                
+                                            </div> -->
+                                            <!-- <p>Duration:03 Nights / 04 Days</p>
+                                            <div class="price">price starts <span>18999/-</span></div>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                
+                                            </div><br> -->
+                                           
+                                            <!-- <div class="box">
+                                                <img src="./jodpur.jpg" alt="">
+                                                <div class="content">
+                                                    <h3><i class="fas fa-map-marker-alt"></i>jodhpur</h3>
+                                                    <p>Known as the "Blue City" for its azure-hued buildings, this Rajasthan gem boasts majestic forts, vibrant bazaars, and a rich cultural heritage, offering travelers a glimpse into India's royal past.</p> -->
+                                                    <!-- <div class="stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="far fa-star"></i>
+                                        
+                                                    </div> -->
+                                                    <!-- <p>Duration:02 Nights / 03 Days</p>
+                                                    <div class="price">price starts <span>18999/-</span></div>
+                                                    <div class="stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="far fa-star"></i>
+                                        
+                                                    </div><br>
+                                                  -->
+                                    <!-- <div class="box">
+                                        <img src="./srinagar.jpg" alt="">
+                                        <div class="content">
+                                            <h3><i class="fas fa-map-marker-alt"></i>srinagar</h3>
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, aliquid?</p> -->
+                                            <!-- <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                
+                                            </div> -->
+                                            <!-- <p>Duration:04 Nights / 05 Days</p>
+                                            <div class="price">price starts <span>18999/-</span></div>  
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                
+                                            </div><br>        -->
+             <!-- <a href="#" class="btn">book</a>  -->
+            
+
+
+</div>
+
+</section> 
+
+
+<!-- packages section end -->
+
+<!-- services section starts -->
+
+ <section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>hotel options tailored to fit every budget, ensuring comfortable stays without breaking the bank.</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food & drinks</h3>
+            <p>budget-friendly dining experiences, presenting a variety of local eateries and street food stalls where travelers can savor authentic flavors without overspending</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>prioritize safety by providing comprehensive guides, including tips on navigating unfamiliar environments, staying vigilant in crowded areas, and avoiding common scams.</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>offer around-the-world itineraries that balance adventure with safety, providing essential guidance on visa requirements, health precautions, and cultural sensitivities for each destination.</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travels</h3>
+            <p>offer expedited travel options with optimized itineraries, minimizing layovers and prioritizing efficient transit routes.</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventure</h3>
+            <p>provide thrilling adventure packages tailored to adrenaline seekers, offering a range of activities such as trekking, whitewater rafting, and safari expeditions.</p>
+
+        </div>
+    </div> 
+
+
+
+
+
+
+
+
+<!-- services section ends -->
+
+<!-- gallery section starts -->
+
+ <section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./img1.webp" alt="">
+            <div class="content">
+                <!-- <p><b>shimla is an amazing place</b></p> -->
+                <!-- <h3>amazing places</h3>
+                <p></p> -->
+                <a href="#" class="btn">Amritsar Tour</a>
+            </div>
+
+        </div>
+        <!-- <div class="box">
+            <img src="./img2.jpg" alt="">
+            <div class="content">
+                 <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ducimus?</p> -->
+                <!-- <a href="#" class="btn">Shimla Tour</a>
+            </div>
+        </div> --> 
+        <div class="box">
+            <img src="./img3.jpg" alt="">
+            <div class="content">
+                <!-- <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ducimus?</p> -->
+                <a href="#" class="btn">Jodhpur Tour</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./img4.jpg" alt="">
+            <div class="content">
+                <!-- <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ducimus?</p> -->
+                <a href="#" class="btn">Manali Tour</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./img5.jpg" alt="">
+            <div class="content">
+                <!-- <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ducimus?</p> -->
+                <a href="#" class="btn">Jaipur Tour</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./img6.webp" alt="">
+            <div class="content">
+                <!-- <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ducimus?</p>
+                 <a href="#" class="btn">Shimla Tour</a> 
+            </div>
+        </div>
+        <div class="box">
+            <img src="./img7.jpeg" alt="">
+            <div class="content">
+                <!-- <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ducimus?</p> -->
+                <a href="#" class="btn">Shimla Tour</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./img8.png" alt="">
+            <div class="content">
+                <!-- <h3>amazing places</h3> -->
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ducimus?</p> -->
+                <a href="#" class="btn">Delhi Tour</a>
+            </div>
+        </div>
+       
+
+    </div>
+
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts -->
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./review1.jpg" alt="">
+                    <h3>Arjun Patel</h3>
+                    <p>Travel through this agency was seamless! The website is user-friendly, and I was able to find the perfect vacation package within minutes</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                </div>
+            </div> 
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./review4.jpeg" alt="">
+                    <h3>Priya Sharma</h3>
+                    <p>I  highly recommend this travel agency website! Their customer service team was incredibly helpful and responsive when I had questions about my trip.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                </div>
+            </div> 
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./review2.jpg" alt="">
+                    <h3>Rajiv Singh</h3>
+                    <p>The deals on this website are unbeatable! I saved so much money by booking my flights and accommodations through them</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                </div>
+            </div> 
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./review3.jpg" alt="">
+                    <h3>Rahul Mehta</h3>
+                    <p>I've used many travel websites in the past, but this one stands out for its wide range of destination options and customizable itineraries.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</section> 
+
+
+<!-- review section ends -->
+
+<!-- contact section starts -->
+
+ <section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="./img-contact.jpg" alt="">
+        </div>
+        <section class="contact-section">
+            <div class="contact-intro">
+              <h2 class="contact-title">Get in Touch</h2>
+              <p class="contact-description">
+              </p>
+            </div>
+          
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          
+              <input type="hidden" name="access_key" value="e7308d2c-f221-4fa0-9339-6440e6ff28a6" />
+              <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+              <input type="hidden" name="from_name" value="My Website" />
+              <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+          
+              <div class="form-group-container">
+                <div class="form-group">
+                  <label for="name" class="form-label">Name</label>
+                  <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+                </div>
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input id="phone" name="phone" class="form-input" placeholder="Your Number" type="text" />
+                </div>
+                <div class="form-group">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+                </div>
+              </div>
+              <button class="form-submit" type="submit">Send Message</button>
+            </form>
+          
+        </section>
+            
+    </div>
+</section> 
+            
+
+</section> 
+
+
+
+<!-- contact section ends -->
+
+<!-- footer section -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>#730,18th Main Road,Padmanabhanagar,Banglore-560070.</p>
+            <p>Siddaraju<br> +918123156175</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">uttarahalli</a>
+            <a href="#">Padmanabhanagar</a>
+            <!-- <a href="#">shimla</a>
+            <a href="#">udaipur</a> -->
+
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <!-- <a href="#">book</a> -->
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+          
+        </div>
+        
+    </div>
+    <h1 class="credit"> Developed by <span> Vaishnavi and Shashi Vamshi</span></h1>
+    <h2 class="credit"> Copy Writes <span> Preetham Tours and Travel</span></h2>
+</section> 
+
+<!-- <form action="">
+    <div class="inputBox">
+    
+    <h3>where to</h3>
+    <input type="text" placeholder="place name">
+    </div>
+    <div class="inputBox">
+    <h3>how many</h3>
+    
+    
+    <input type="number" placeholder="number of guests">
+    
+
+    </div>
+    <div class="inputBox">
+    <h3>arrivals</h3>
+    <input type="date">
+    </div>
+    <div class="inputBox">
+    <h3>leaving</h3>
+
+    <input type="date">
+    </div>
+    </form> -->
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="access_key" value="Enter name">
+        </form>
+
+</div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./projectaat.js"></script>
+
+
+</body>
+</html>

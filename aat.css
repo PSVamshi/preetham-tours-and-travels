@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Alubam</title>
+    <style>
+        .audio-container {
+            background-image: none;
+            text-align: center;
+           
+            height: 100px;
+            width: 100px;
+            
+        }
+
+        .video-container {
+            margin-left: 0%;
+            margin-right: 0%;
+            border: 2px solid white;
+            border-top: 20px;
+            cursor: pointer;
+            text-align: center;
+        }
+           
+        
+        body{
+            background-color: burlywood;
+        }
+
+    </style>
+</head>
